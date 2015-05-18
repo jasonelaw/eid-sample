@@ -43,7 +43,7 @@ Relationship |	The name of the relationship between the sample and the sample/lo
 
 Samples can depend either on samples or locations. For example, a *composite sample* whose parent samples are given identifiers and persisted will have relationships with all of the parent samples. A *composite sample* whose parent samples are not given identifiers and persisted will have relationships with the monitoring locations from which the parent samples were obtained. A *duplicate sample* will have a relationship with both the location that it was collected from and the sample for which it serves as a duplicate. Figure 1 illustrates common relationships in EID sampling programs.
 
-![Examples of the relationships among samples and locations.](https://github.com/jasonelaw/eid-sample/img/RelationExamples.png "Figure 1: Examples of the relationships among samples and between samples and locations.")
+![Examples of the relationships among samples and locations.](https://github.com/jasonelaw/eid-sample/master/RelationExamples.png "Figure 1: Examples of the relationships among samples and between samples and locations.")
 
 ###Environmental Sample Property
 
