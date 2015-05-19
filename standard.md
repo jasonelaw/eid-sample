@@ -1,4 +1,4 @@
-﻿#Environmental Sample Data Standard
+#Environmental Sample Data Standard
 ###Introduction
 The Environmental Investigations Division (EID) Environmental Sample Data Standard provides a standard way to represent information associated with environmental samples collected as part of environmental investigations and monitoring. The standard provides a consistent view of sample information and defines a minimum set of attributes necessary to document a sample within BES programs.
 
@@ -24,7 +24,7 @@ Description	| A description of the sample which can be used to convey additional
 Collection Date | The date-time that sample collection was completed.
 Medium	        | Webster: a surrounding or enveloping substance. [Gold book](http://goldbook.iupac.org/M03814.html): the phase (and composition of the phase) in which [chemical species](http://goldbook.iupac.org/CT01038.html) and their reactions are studied in a particular investigation.	| [USGS Medium Codes](http://help.waterdata.usgs.gov/medium_cd)<br>[EPA WQX Media](http://cdx.epa.gov/wqx/download/DomainValues/ActivityMedia.zip)<br>[EPA WQX Media Subdivision](http://cdx.epa.gov/wqx/download/DomainValues/ActivityMediaSubdivision.zip)
 SampleType      | The type of the sample being collected: often conveys information about how and for what purpose the sample was collected. |Duplicate<br>Trip Blank<br>Equipment Blank
-IsQC            | Is the sample being collected for Quality Control purposes?	
+IsQC            | Is the sample being collected for Quality Control purposes?	|
 IsCompliance              | Is the sample being collected to comply with a regulatory requirement?	|
 SampleCollectionProcedure	| A reference to a procedure used to collect the sample. |
 SampleHandlingProcedure  	| A reference to a procedure applied to the sample prior to being submitted for analysis. If the handling is part of the SampleCollectionProcedure, then this does need to be recorded separately.	Field filtering, sieving, grinding are all commonly used. |
